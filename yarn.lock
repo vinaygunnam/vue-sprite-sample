@@ -713,6 +713,11 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
+"@fortawesome/fontawesome-free@^5.4.2":
+  version "5.4.2"
+  resolved "https://msnexus.morningstar.com/repository/npm-all/@fortawesome/fontawesome-free/-/fontawesome-free-5.4.2.tgz#b2d782da69c45ea61954291e2615a8f7741c96b2"
+  integrity sha512-lpruVv/4AkKUujyzHCNJ8yOceBf7Na/pFaX52ZI/BFMCYkUEwiQ1P0viZg//+WelrNNEgvMOvCMDEDaOMZ/u1w==
+
 "@intervolga/optimize-cssnano-plugin@^1.0.5":
   version "1.0.6"
   resolved "https://msnexus.morningstar.com/repository/npm-all/@intervolga/optimize-cssnano-plugin/-/optimize-cssnano-plugin-1.0.6.tgz#be7c7846128b88f6a9b1d1261a0ad06eb5c0fdf8"
@@ -6406,7 +6411,7 @@ safe-regex@^1.1.0:
   resolved "https://msnexus.morningstar.com/repository/npm-all/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sax@^1.2.4, sax@~1.2.4:
+sax@>=0.6.0, sax@^1.2.4, sax@~1.2.4:
   version "1.2.4"
   resolved "https://msnexus.morningstar.com/repository/npm-all/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
@@ -7403,7 +7408,16 @@ vue-style-loader@^4.1.0:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.17:
+vue-svg-sprite-loader@^1.2.0:
+  version "1.2.0"
+  resolved "https://msnexus.morningstar.com/repository/npm-all/vue-svg-sprite-loader/-/vue-svg-sprite-loader-1.2.0.tgz#1c8c2bdc365c6d8ab0606fec118556dc69d150c3"
+  integrity sha1-HIwr3DZcbYqwYG/sEYVW3GnRUMM=
+  dependencies:
+    loader-utils "^1.1.0"
+    vue-template-compiler "^2.4.2"
+    xml2js "^0.4.17"
+
+vue-template-compiler@^2.4.2, vue-template-compiler@^2.5.17:
   version "2.5.17"
   resolved "https://msnexus.morningstar.com/repository/npm-all/vue-template-compiler/-/vue-template-compiler-2.5.17.tgz#52a4a078c327deb937482a509ae85c06f346c3cb"
   integrity sha512-63uI4syCwtGR5IJvZM0LN5tVsahrelomHtCxvRkZPJ/Tf3ADm1U1wG6KWycK3qCfqR+ygM5vewUvmJ0REAYksg==
@@ -7638,6 +7652,19 @@ ws@^4.0.0:
   dependencies:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
+
+xml2js@^0.4.17:
+  version "0.4.19"
+  resolved "https://msnexus.morningstar.com/repository/npm-all/xml2js/-/xml2js-0.4.19.tgz#686c20f213209e94abf0d1bcf1efaa291c7827a7"
+  integrity sha512-esZnJZJOiJR9wWKMyuvSE1y6Dq5LCuJanqhxslH2bxM6duahNZ+HMpCLhBQGZkbX6xRf8x1Y2eJlgt2q3qo49Q==
+  dependencies:
+    sax ">=0.6.0"
+    xmlbuilder "~9.0.1"
+
+xmlbuilder@~9.0.1:
+  version "9.0.7"
+  resolved "https://msnexus.morningstar.com/repository/npm-all/xmlbuilder/-/xmlbuilder-9.0.7.tgz#132ee63d2ec5565c557e20f4c22df9aca686b10d"
+  integrity sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=
 
 xregexp@4.0.0:
   version "4.0.0"
